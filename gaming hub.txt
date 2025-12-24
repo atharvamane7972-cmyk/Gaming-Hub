@@ -1,0 +1,187 @@
+Technology & Components Documentation
+
+This document explains which technologies are used** in the project and what specific components/tags are used** from **Bootstrap** and **HTML**.
+
+---
+
+ 1. Technologies Used
+1.1 HTML5
+
+HTML5 is used to create the structure and content of the website. It defines the layout of the navbar, carousel, image sections, tables, and footer.
+
+ 1.2 CSS3
+
+CSS3 is used for styling and visual design. It controls colors, fonts, spacing, hover effects, gradients, and responsiveness.
+
+1.3 Bootstrap 5.3
+
+Bootstrap is a front-end framework used to make the website responsive, clean, and professional with minimal custom code.
+
+ 1.4 Bootstrap Icons
+
+Bootstrap Icons are used to display vector icons, such as the game controller icon in the navbar.
+
+ 1.5 JavaScript (Bootstrap Bundle)
+
+JavaScript is used indirectly through Bootstrap to enable interactive components like the navbar toggle, dropdown menu, and carousel sliding.
+
+---
+
+ 2. Bootstrap Components Used
+
+ 2.1 Navbar
+
+Used to create the top navigation bar of the website.
+
+Bootstrap classes used:
+
+* `navbar`
+* `navbar-expand-lg`
+* `navbar-dark`
+* `sticky-top`
+* `navbar-brand`
+* `nav-item`
+* `nav-link`
+* `dropdown`
+* `dropdown-menu`
+
+Purpose:
+
+* Displays website title
+* Provides navigation links (Home, About, Contact)
+* Includes a dropdown menu
+
+---
+
+ 2.2 Carousel
+
+Used to display sliding images at the top of the page.
+
+Bootstrap classes used:
+
+* `carousel`
+* `carousel-inner`
+* `carousel-item`
+* `carousel-control-prev`
+* `carousel-control-next`
+
+Purpose:
+
+* Show gaming-related images
+* Enhance visual appearance
+
+---
+
+ 2.3 Grid System
+
+Used to arrange content in rows and columns.
+
+Bootstrap classes used:
+
+* `container`
+* `row`
+* `col-md-3`
+* `col-sm-6`
+
+Purpose:
+
+* Responsive layout
+* Proper alignment of image cards and tables
+
+---
+
+ 2.4 Table
+
+Used to display gaming progress information.
+
+Bootstrap classes used:
+
+* `table`
+* `table-dark`
+* `table-hover`
+* `table-responsive`
+
+Purpose:
+
+* Displays game name, rank, level, and win rate
+
+---
+
+ 2.5 Progress Bar
+
+Used to visually represent **game progress**.
+
+Bootstrap classes used:
+
+* `progress`
+* `progress-bar`
+* `bg-success`
+* `bg-warning`
+* `bg-info`
+* `bg-danger`
+
+---
+
+ 2.6 Badges
+
+Used to show **game status labels**.
+
+Bootstrap classes used:
+
+* `badge`
+* `bg-success`
+* `bg-warning`
+* `bg-info`
+* `bg-danger`
+
+---
+
+ 3. HTML Tags Used
+
+3.1 Structural Tags
+
+* `<html>` – Root element of the document
+* `<head>` – Contains metadata and links
+* `<body>` – Contains visible content
+* `<header>` – Used conceptually for top sections (navbar)
+* `<footer>` – Displays copyright information
+
+---
+
+ 3.2 Text & Content Tags
+
+* `<h1>` to `<h5>` – Used for headings and titles
+* `<p>` – Used for paragraphs and text content
+* `<span>` – Used for inline text (badges)
+
+---
+
+ 3.3 Media Tags
+
+* `<img>` – Used to display images in carousel and cards
+* `<i>` – Used to display icons
+
+---
+
+ 3.4 List & Navigation Tags
+
+* `<ul>` – Unordered list for navigation menu
+* `<li>` – List items in navbar
+* `<a>` – Hyperlinks for navigation
+
+---
+
+ 3.5 Table Tags
+
+* `<table>` – Creates a table
+* `<thead>` – Table header
+* `<tbody>` – Table body
+* `<tr>` – Table row
+* `<th>` – Table heading
+* `<td>` – Table data
+
+---
+
+ 4. Conclusion
+
+This project uses HTML5, CSS3, and Bootstrap 5 to create a responsive and professional gaming website. Bootstrap components simplify layout design and interactivity, while HTML tags define the structure and content clearly, making the project suitable for college submission and viva evaluation.
