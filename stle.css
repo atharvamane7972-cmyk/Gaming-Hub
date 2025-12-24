@@ -1,0 +1,35 @@
+.gaming-table {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.gaming-table thead {
+    background: linear-gradient(
+        135deg,
+        var(--primary-color),
+        var(--secondary-color)
+    );
+}
+
+.gaming-table th {
+    color: var(--light-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.gaming-table td {
+    vertical-align: middle;
+}
+
+.progress {
+    height: 22px;
+    border-radius: 20px;
+    background-color: #2b2b2b;
+}
+
+.progress-bar {
+    font-weight: bold;
+}
+
